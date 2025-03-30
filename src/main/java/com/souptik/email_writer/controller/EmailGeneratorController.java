@@ -3,7 +3,6 @@ package com.souptik.email_writer.controller;
 import com.souptik.email_writer.model.EmailRequest;
 import com.souptik.email_writer.service.EmailGeneratorService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
