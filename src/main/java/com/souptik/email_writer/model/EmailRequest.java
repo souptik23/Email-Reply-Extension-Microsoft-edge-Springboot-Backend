@@ -7,4 +7,7 @@ public class EmailRequest {
 
     private String emailContent;
     private String tone;  // professional(default) , //sarcastic etc
+    private String relationshipContext;  // e.g., "colleague", "client", "friend"
+    private String responseGoal;         // e.g., "confirm receipt", "schedule meeting", "provide information"
+    private String preferredLength;      // e.g., "short", "medium", "detailed"
 }
